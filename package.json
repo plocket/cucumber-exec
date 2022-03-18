@@ -1,5 +1,5 @@
 {
-  "name": "cucumber-exec",
+  "name": "@plocket/cucumber-exec",
   "version": "1.0.0",
   "description": "Attempt at simple reproducible example of unexecutable bin file",
   "main": "index.js",
@@ -20,7 +20,8 @@
     "@cucumber/cucumber": "^7.3.2"
   },
   "bin": {
-    "exec-other": "./other-exec.js",
-    "exec-world": "./index.js"
-  }
+    "exec-other": "other-exec.js",
+    "exec-world": "index.js"
+  },
+  "devDependencies": {}
 }
