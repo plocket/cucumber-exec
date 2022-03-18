@@ -1,0 +1,26 @@
+{
+  "name": "cucumber-exec",
+  "version": "1.0.0",
+  "description": "Attempt at simple reproducible example of unexecutable bin file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plocket/cucumber-exec.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/plocket/cucumber-exec/issues"
+  },
+  "homepage": "https://github.com/plocket/cucumber-exec#readme",
+  "dependencies": {
+    "@cucumber/cucumber": "^7.3.2"
+  },
+  "bin": {
+    "exec-other": "./other-exec.js",
+    "exec-world": "./index.js"
+  }
+}
