@@ -3,4 +3,4 @@
 console.log('executed world file!')
 
 require('./world');
-require('./steps.js');
+require('./steps');

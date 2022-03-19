@@ -1,10 +1,5 @@
-const { setWorldConstructor } = require('cucumber');
-const puppeteer = require('puppeteer');
-const scope = require('./scope');
+const { setWorldConstructor } = require('@cucumber/cucumber');
 
-const World = function() {
-  scope.driver = puppeteer;
-  scope.context = {};
-};
+const World = function() {};
 
 setWorldConstructor(World);

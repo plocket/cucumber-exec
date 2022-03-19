@@ -1,6 +1,6 @@
 {
   "name": "@plocket/cucumber-exec",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Attempt at simple reproducible example of unexecutable bin file",
   "main": "index.js",
   "scripts": {
